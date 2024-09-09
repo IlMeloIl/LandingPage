@@ -3,17 +3,21 @@ body{
     flex-direction: column;
     box-sizing: border-box;
     margin: 0;
+    min-height: 100vh;
 }
 
-.first-section{
-    background-color: #1F2937;
+.content{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
 }
 
 .header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-bottom: 50px;
+    background-color: #1F2937;
+
 }
 
 .header p{
@@ -37,8 +41,9 @@ a{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin-bottom: 100px;
-    
+    background-color: #1F2937;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 h1{
@@ -116,8 +121,48 @@ h1{
     justify-content: flex-end;
 }
 
+.modal{
+    display: flex;
+    justify-content: center;
+}
+
 .fourth-section{
     display: flex;
+    justify-content: space-around;
     background-color: #3882F6;
-    width: 500px;
+    width: 900px;
+    padding: 50px;
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+
+#call-to-action{
+    color: #F9FAF8;
+    font-weight: bold;
+    font-size: 25px;
+    margin: 0;
+    padding: 0;
+    
+}
+
+#call-to-action-subtext{
+    margin: 0;
+    padding: 0;
+    color: #a2a2a2;
+}
+
+.fourth-section-bttn{
+    color: white;
+    background-color: #3882F6;
+    border: white solid 2px;
+    border-radius: 10px;
+    width: 100px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #a2a2a2;
+    height: 72px;
 }
