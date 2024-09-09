@@ -91,3 +91,26 @@ h1{
     gap: 50px;
     flex-wrap: wrap;
 }
+
+.third-section{
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+}
+
+#quote{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    margin: 0;
+}
+
+.third-section-quote{
+    width: 770px;
+    padding: 50px;
+}
+
+.test{
+    display: flex;
+    justify-content: flex-end;
+}
