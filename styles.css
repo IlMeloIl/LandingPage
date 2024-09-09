@@ -96,6 +96,7 @@ h1{
     background-color: #E5E7EB;
     display: flex;
     justify-content: center;
+    margin-bottom: 50px;
 }
 
 #quote{
@@ -113,4 +114,10 @@ h1{
 .test{
     display: flex;
     justify-content: flex-end;
+}
+
+.fourth-section{
+    display: flex;
+    background-color: #3882F6;
+    width: 500px;
 }
